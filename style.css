@@ -1,0 +1,55 @@
+.banner {
+  background-image: url("https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  background-size: cover;
+  padding: 200px;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+  text-align: left;
+}
+
+h1{
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+h2{
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+h3{
+  font-family: 'Shadows Into Light', cursive;
+  opacity: 60%;
+} 
+p {
+  font-family: 'Inconsolata', monospace;
+}
+
+a {
+  font-family: 'Shadows Into Light', cursive;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #D16666
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container{
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
